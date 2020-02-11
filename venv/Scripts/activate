@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\Python\Testcase_format\venv"
+VIRTUAL_ENV="C:\Users\tester\Desktop\PycharmProjects\Testcase_format\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
