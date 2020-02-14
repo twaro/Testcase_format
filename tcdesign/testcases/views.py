@@ -5,7 +5,7 @@ from .models import Testcase
 
 # Create your views here.
 def index(request):
-    latest_testcase_list = Testcase.objects.order_by('-last_update')[:5]
+    latest_testcase_list = Testcase.objects.order_by('-last_modified')[:5]
     context = {'latest_testcase_list': latest_testcase_list}
     return render(request, 'testcases/index.html', context)
 
